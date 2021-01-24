@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deniz Yüce | Design Courses</title>
+    <meta name="keywords" content="Python, Java, JavaScript">
+    <meta name="description" content="Deniz Yüce | Design Courses">
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!-- Our CSS Links -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <!-- Mobile -->
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Deniz Yüce</h1>
+                <ul>
+                    <li><a href="#home">Home Page</a></li>
+                    <li><a href="#training">Trainings</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+
+    <section id="home">
+        <img src="images/denizyuce.jpeg" width="300" alt="Deniz Yüce">
+        <div class="name">
+            <h2 class="heading-big text-center">Deniz Yüce</h2>
+            <p>Computer Engineer | Founder of Coding Design</p>
+        </div>
+        <a href="courses" class="btn btn-primary">Go to Courses</a>
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Trainings</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fas fa-archive"></i>
+                <h3>In-Class Trainings</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ea.
+                </p>
+            </article>
+            <article class="item">
+                <i class="fab fa-audible"></i>
+                <h3>Online Materials</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ea.
+                </p>
+            </article>
+            <article class="item">
+                <i class="fas fa-book-open"></i>
+                <h3>Conferences</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ea.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h3 class="text-center heading-medium">Courses</h3>
+        <div class="container">
+            <div class="courses">
+                <!-- Course 1 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/python.jpg" height="125" width="225" alt="Python">
+                        <span>90% Sale</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">(40+ Saat) Python | Sıfırdan İleri Seviye Programlama (2020)</div>
+                        <div class="description">(40+ Saat) Python | Sıfırdan İleri Seviye Programlama (2020)</div>
+                        <div class="instructor">Deniz Yüce, Software Science</div>
+                        <div class="rating">4.6 | (19990 Oylama)</div>
+                    </div>
+                </div>
+                <!-- Course 2 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/java.png" height="125" alt="Java">
+                        <span>90% Sale</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">Komple Java Geliştirici Kursu</div>
+                        <div class="description">Komple Java Geliştirici Kursu | Sıfırdan Java Öğrenin</div>
+                        <div class="instructor">Deniz Yüce, Software Science</div>
+                        <div class="rating">4.6 | (7000 Oylama)</div>
+                    </div>
+                </div>
+                <!-- Course 3 -->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/javascript.jpg" height="125" alt="JavaScript">
+                        <span>90% Sale</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">Komple Modern JavaScript Kursu</div>
+                        <div class="description">Komple Modern JavaScript Kursu - ES6+</div>
+                        <div class="instructor">Deniz Yüce, Software Science</div>
+                        <div class="rating">4.7 | (2000 Oylama)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Contact Me</h4>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input 
+                    type="text" 
+                    class="form-control" 
+                    name="name" 
+                    id="name" 
+                    placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-Mail</label>
+                    <input 
+                    type="text" 
+                    class="form-control" 
+                    name="email" 
+                    id="email" 
+                    placeholder="E-Mail">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" class="form-control" rows="5" placeholder="Your Message...">
+                    </textarea>
+                </div>
+
+                <button type="submit" class="btn btn-block">Send</button>
+            </form>
+
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </li>
+            </ul>
+
+        </div>
+    </footer>
+</body>
+</html>
